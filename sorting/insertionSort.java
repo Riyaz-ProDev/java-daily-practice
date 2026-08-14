@@ -25,6 +25,7 @@
 // }
 
 package sorting;
+import java.util.Arrays;
 public class insertionSort{
 
   public static void insertion(int arr[]){
@@ -41,9 +42,14 @@ public class insertionSort{
 
   public static void main(String[] args) {
     int arr[]={5,4,3,2,1};
+    int arr1[]={5,4,3,2,1};
+    Arrays.sort(arr1);
     insertion(arr);
     for(int i=0;i<arr.length;i++){
       System.out.print(arr[i]);
+    }
+    for(int i=0;i<arr1.length;i++){
+      System.out.print(arr1[i]);
     }
   }
 }
