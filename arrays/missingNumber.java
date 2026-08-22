@@ -12,7 +12,7 @@ public class missingNumber {
        actualSum+=arr[i];
     }
     int missingNum=expectedSum-actualSum;
-   return missingNum;
+     return missingNum;
   }
   public static void main(String[] args) {
     int arr[]={1,2,3,5,6};
