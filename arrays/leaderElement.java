@@ -38,6 +38,4 @@ public class leaderElement {
       // Findleader(arr); 
       bestcode(arr);
   }
-
-
 }
