@@ -10,7 +10,7 @@ public class parity905 {
     int right = nums.length - 1;
 
     while (left < right) {
-
+/
         if (nums[left]%2==0) {
             left++;
         }
