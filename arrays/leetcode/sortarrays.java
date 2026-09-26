@@ -6,6 +6,7 @@ public class sortarrays {
   
 
   public static int[] sorting(int nums[]){
+   //for traversing index
       int index=0;
       int[] temp=new int[nums.length];
 
